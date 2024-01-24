@@ -1,7 +1,6 @@
 ---
-layout: Page
-title: "About Me"
+layout: page
+title: "About"
 ---
 
-
-About me...
+Link to .
