@@ -3,6 +3,7 @@ layout: page
 title: ""
 ---
 
+Lorem ip..
 
 <img src="/_data/font-awesome/ra06.png" alt="Logo" style="width: 300px; height: auto;">
 
