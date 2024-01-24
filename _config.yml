@@ -1,6 +1,7 @@
 title: "Routine Activity"
 author: "Iain"
-description: "Routine Activity - Improving Public Safety"
+#description: "Routine Activity - Improving Public Safety"
+copyright: '' # Footer text, e.g. '© {year} Me'
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
