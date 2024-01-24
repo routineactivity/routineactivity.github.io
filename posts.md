@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: page
 title: "Posts"
 ---
 
-Posts
+Posts.
