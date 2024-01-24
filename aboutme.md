@@ -15,9 +15,9 @@ I maintain an open-source [website](https://sites.google.com/view/routineactivit
 
 ### Education and Professional Qualifications
 
-2020-2021 Cambridge Centre for Evidence-Based Policing; evidence-based policing
-2007-2009 Jill Dando Insitute of Crime Science; problem-oriented policing
-2003-2006 De Montfort University; 2:1 Human Geography BA
+* 2020-2021 Cambridge Centre for Evidence-Based Policing; evidence-based policing
+* 2007-2009 Jill Dando Insitute of Crime Science; problem-oriented policing
+* 2003-2006 De Montfort University; 2:1 Human Geography BA
 
 ### Practitioner Honours and Awards
 
