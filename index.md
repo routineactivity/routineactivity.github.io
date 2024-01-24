@@ -1,6 +1,6 @@
 ---
 layout: page
-title: @routineactivity
+title: "@routineactivity"
 
 ---
 
