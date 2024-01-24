@@ -3,4 +3,4 @@ layout: page
 title: "Presentations"
 ---
 
-Link to presentations..
+Link to presentations.
