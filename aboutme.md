@@ -21,14 +21,14 @@ I maintain an open-source [website](https://sites.google.com/view/routineactivit
 
 ### Practitioner Honours and Awards
 
-* 2021 Commendation for work implementing risk-based policing and reducing public space violence, Essex Police
-* 2021 Innovation of the Year in recognition of innovative work that has benefitted Essex Police
-* 2015 Winner Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Safe & Sound: Managing the night-time economy’, LB Havering and Metropolitan Police
-* 2013 Winner Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Tackling Gangs and Serious Youth Violence in North London’, LB Enfield, LB Haringey and Metropolitan Police
-* 2012 Winner Tilley Problem Solving Awards: ‘Tackling Gangs and Serious Youth Violence in North London’, LB Enfield, LB Haringey and Metropolitan Police
-* 2012 Commendation Assistant Commissioner of Met Police for excellence in problem-solving analysis
-* 2011 Runner-up Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Safe as Houses’, LB Enfield and Metropolitan Police
-* 2011 Runner-up Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Gangs Action Group’, LB Enfield and Metropolitan Police
+* 2021 **Commendation** for work implementing risk-based policing and reducing public space violence, Essex Police
+* 2021 **Innovation of the Year** in recognition of innovative work that has benefitted Essex Police
+* 2015 **Winner** Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Safe & Sound: Managing the night-time economy’, LB Havering and Metropolitan Police
+* 2013 **Winner** Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Tackling Gangs and Serious Youth Violence in North London’, LB Enfield, LB Haringey and Metropolitan Police
+* 2012 **Winner** Tilley Problem Solving Awards: ‘Tackling Gangs and Serious Youth Violence in North London’, LB Enfield, LB Haringey and Metropolitan Police
+* 2012 **Commendation** Assistant Commissioner of Met Police for excellence in problem-solving analysis
+* 2011 **Runner-up** Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Safe as Houses’, LB Enfield and Metropolitan Police
+* 2011 **Runner-up** Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Gangs Action Group’, LB Enfield and Metropolitan Police
 
 ### Peer-reviewed works
 
