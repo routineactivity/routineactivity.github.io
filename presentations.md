@@ -1,6 +1,13 @@
 ---
-layout: page
-title: "Presentations"
+layout: default
 ---
 
-Link to presentations.
+## Presentations
+
+<ul>
+{% for post in site.presentations %}
+  <li>
+    <a href="{{ presentations.url }}">{{ presentations.title }}</a>
+  </li>
+{% endfor %}
+</ul>
