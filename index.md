@@ -9,4 +9,14 @@ I am currently a Data Scientist specialising in geographical information. My mai
 
 ## Recent Posts
 
+<h2>Recent Posts</h2>
+<ul>
+{% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  </li>
+{% endfor %}
+</ul>
+
 ## Recent Presentations
