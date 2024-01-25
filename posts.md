@@ -2,8 +2,7 @@
 layout: default
 ---
 
-## Posts
-
+<h2>Posts</h2>
 <ul>
 {% for post in site.posts %}
   <li>
