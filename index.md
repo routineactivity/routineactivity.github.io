@@ -7,8 +7,6 @@ title: ""
 
 I am currently a Data Scientist specialising in geographical information. My main interests are crime analysis, problem-solving and evidence-based policing.
 
-## Recent Posts
-
 <h2>Recent Posts</h2>
 <ul>
 {% for post in site.posts limit:5 %}
@@ -19,4 +17,12 @@ I am currently a Data Scientist specialising in geographical information. My mai
 {% endfor %}
 </ul>
 
-## Recent Presentations
+<h2>Recent Presentations</h2>
+<ul>
+{% for post in site.presentations limit:5 %}
+  <li>
+    <a href="{{ presentations.url }}">{{ presentations.title }}</a>
+    <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  </li>
+{% endfor %}
+</ul>
