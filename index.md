@@ -17,11 +17,11 @@ I am currently a Data Scientist specialising in geographical information. My mai
 {% endfor %}
 </ul>
 
-<h2>Recent Presentations</h2>
+<h2>Recent Maps</h2>
 <ul>
-{% for post in site.presentations limit:5 %}
+{% for post in site.maps limit:5 %}
   <li>
-    <a href="{{ presentations.url }}">{{ presentations.title }}</a>
+    <a href="{{ maps.url }}">{{ maps.title }}</a>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
   </li>
 {% endfor %}
