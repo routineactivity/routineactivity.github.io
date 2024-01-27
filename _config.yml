@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
   - {file: "aboutme.md", title: "About Me"}
   - {file: "posts.md", title: "Posts"}
-  - {file: "presentations.md", title: "Presentations"}
+  - {file: "maps.md", title: "Presentations"}
 
 # Custom collections
 
