@@ -2,12 +2,12 @@
 layout: default
 ---
 
-## Presentations
+## Maps
 
 <ul>
-{% for post in site.presentations %}
+{% for post in site.maps %}
   <li>
-    <a href="{{ presentations.url }}">{{ presentations.title }}</a>
+    <a href="{{ maps.url }}">{{ maps.title }}</a>
   </li>
 {% endfor %}
 </ul>
