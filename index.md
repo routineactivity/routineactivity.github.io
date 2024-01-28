@@ -21,7 +21,7 @@ I am currently a Data Scientist specialising in geographical information. My mai
 <ul>
 {% for map in site.maps limit:5 %}
   <li>
-    <a href="{{ maps.url }}">{{ maps.title }}</a>
+    <a href="{{ map.url }}">{{ map.title }}</a>
     <p>{{ map.date | date: "%B %d, %Y" }}</p>
   </li>
 {% endfor %}
