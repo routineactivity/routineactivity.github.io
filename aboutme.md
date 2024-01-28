@@ -44,6 +44,7 @@ I maintain an open-source <a href="https://sites.google.com/view/routineactivity
 
 * 2023-2024 Judge for the 2023 National Problem Solving Awards (Tilley Awards)
 * 2021-2023 Guideline committee for Problem-Oriented Policing <a href="https://www.college.police.uk/article/problem-oriented-policing-pop-guidelines" target="_blank">POP Guidelines</a>
+* 2020 to date Maintain website aimed at current and aspiring crime analysts <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">@routineactivity resource site</a>
   
 
 ### Skills
