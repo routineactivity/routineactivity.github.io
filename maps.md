@@ -5,7 +5,7 @@ layout: default
 ## Maps
 
 <ul>
-{% for post in site.maps %}
+{% for map in site.maps %}
   <li>
     <a href="{{ maps.url }}">{{ maps.title }}</a>
   </li>
