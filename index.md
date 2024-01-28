@@ -22,7 +22,7 @@ I am currently a Data Scientist specialising in geographical information. My mai
 {% for map in site.maps limit:5 %}
   <li>
     <a href="{{ maps.url }}">{{ maps.title }}</a>
-    <p>{{ map.date | date: "%d %M, %Y" }}</p>
+    <p>{{ map.date | date: "%B %d, %Y" }}</p>
   </li>
 {% endfor %}
 </ul>
