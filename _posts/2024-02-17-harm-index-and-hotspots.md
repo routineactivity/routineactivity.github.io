@@ -55,5 +55,38 @@ All visuals utilise KDE with a consistent spatial bandwidth (550) and cell size 
 
 #### 1. Unweighted hotspots (count) vs. CHI weighted (raw values)
 
+The first comparison shows the difference between an unweighted and CHI weighted hotspot surface. This demonstrates why harm weighting has become a consideration as many harmful places are absent using counts alone. 
 
+<img src="/assets/images/GR01_2024-02-17.jpg" alt="Logo" style="width: 800px; height: auto;">
 
+I have added labels in this second map to highlight some of the frequency deserts that the CHI weighted surface has identified.
+
+<img src="/assets/images/GR02_2024-02-17.jpg" alt="Logo" style="width: 800px; height: auto;">
+
+#### 2. Unweighted hotspots (count) vs. CHI weighted (log transform)
+
+This time the CHI weights have been transformed using a natural logarithm (LN). This more closely resembles the unweighted surface because the new values have been brought much closer together. Here the weighting difference between a homicide (9) and robbery (6) is just three. This amplifies the existing count hotspots, but isn't emphasising higher weighted events to the extent that we would like it to.
+
+<img src="/assets/images/GR03_2024-02-17.jpg" alt="Logo" style="width: 800px; height: auto;">
+
+#### 3. Unweighted hotspots (count) vs. CHI weighted (sqrt transform)
+
+We now transform the CHI weights by taking the square root (SQRT). We can see similarities with the CHI weighted (raw values) surface. Does this solve the problem of frequency deserts?
+
+<img src="/assets/images/GR04_2024-02-17.jpg" alt="Logo" style="width: 800px; height: auto;">
+
+#### 4. CHI weighted (sqrt transform) vs. CHI weighted (raw values)
+
+From an exploratory perspective, the square root transform assists in reducing the skew caused by frequency deserts whilst still able to emphasise harm. 
+
+In Grand Rapids, the CCHI square root transform captured 5% more crime counts among the top 10% of its hotspot surface, comparative to the top 10% of the surface produced by CCHI values left untransformed. This is the equivalent of up to **300x more crimes**. 
+
+In terms of harm, there was **732 harm days lost** among the top 10% of the CCHI square root transform surface, comparative to the top 10% of the CCHI untransformed. This is the equivalent of losing 2x robberies, or 1x firearms incident from the selection of hotspot areas. 
+
+More robust testing is no doubt required, but the transformation of harm weights may be a helpful method when applied to spatial point pattern analyses.
+
+<img src="/assets/images/GR05_2024-02-17.jpg" alt="Logo" style="width: 800px; height: auto;">
+
+### Further reading
+
+* <a href="https://discovery.ucl.ac.uk/10076721/8/Ashby_Comparing%20Methods%20for%20Measuring%20Crime%20Harm%20Severity_AAM.pdf" target="_blank">Ashby, M. (2018) Comparing methods for measuring crime harm/severity</a>
