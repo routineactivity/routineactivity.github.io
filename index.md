@@ -9,7 +9,7 @@ I am currently a Data Scientist specialising in geographical information. My mai
 
 <h2>Recent Posts</h2>
 <ul>
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:3 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
@@ -19,7 +19,7 @@ I am currently a Data Scientist specialising in geographical information. My mai
 
 <h2>Recent Maps</h2>
 <ul>
-{% for map in site.maps limit:5 %}
+{% for map in site.maps limit:3 %}
   <li>
     <a href="{{ map.url }}">{{ map.title }}</a>
     <p>{{ map.date | date: "%B %d, %Y" }}</p>
