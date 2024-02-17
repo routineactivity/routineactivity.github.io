@@ -11,7 +11,7 @@ In this short article, I'd like to address one of the analytical challenges comi
 
 ### Crime harm versus crime volume
 
-Policing has traditionally used crime volumes to identify hot areas. The analysis of crime point data has typically favoured KDE (Kernel Density Estimation), a method that generates aesthetically pleasing smooth surfaces. In <a href="https://static1.squarespace.com/static/5d809efd96f5c906aaf61f3d/t/601bf1485cd3ca249e99a12c/1612443985497/Hotspots+vs.+harmspots+Shifting+the+focus+from+counts+to+harm+in+the+criminology+of+place.pdf" target="_blank">recent years</a>, there has been a shift towards experimenting with harm-weighted hotpots, recognising that the impact of offences is not equal across offence types. However, analysts using harm weights have learned that there is a tendency for higher weighted crime, such as a single homicide, to skew selections of the hottest places for an intervention. 
+Policing has traditionally used crime volumes to identify hot areas. The analysis of crime point data has typically favoured KDE (Kernel Density Estimation), a method that generates aesthetically pleasing smooth surfaces. In <a href="https://static1.squarespace.com/static/5d809efd96f5c906aaf61f3d/t/601bf1485cd3ca249e99a12c/1612443985497/Hotspots+vs.+harmspots+Shifting+the+focus+from+counts+to+harm+in+the+criminology+of+place.pdf" target="_blank">recent years</a>, there has been a shift towards experimenting with harm-weighted hotpots, recognising that the impact of offences is not equal across offence types. However, analysts using harm weights have learned that there is a tendency for higher weighted crime, such as a single homicide, to skew selections of the hottest places for intervention. 
 
 The <a href="https://link.springer.com/article/10.1007/s41887-020-00043-2" target="_blank">Cambridge Crime Harm Index (CCHI)</a> and <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/researchoutputsdevelopingacrimeseverityscoreforenglandandwalesusingdataoncrimesrecordedbythepolice/2016-11-29" target="_blank">Crime Severity Score (CSS)</a> both generate weights based on sentencing days (CCHI uses the start point, CSS uses the average), which for a basket of violent crimes can produce weights that range from fewer than 20 for common assault to more than 3,000 for crimes of attempted murder and homicide. 
 
@@ -29,9 +29,9 @@ Further commentary on these challenges is discussed in a recent paper by Vincent
 
 ### (Imperfect) solutions
 
-The solution to removing *'frequency deserts'*, can often be manual correction. This can be a time burden for someone working in a large urban area or across an entire police force. It can involve making arbitrary cut-off decisions. What does too few offences mean? Less than 10? Less than 1 per week? Less than 1 per month? This can become an iterative loop, which can be fine for a single time study or intervention, but you do not want to rehash this manual process over and over again. 
+The solution to removing *'frequency deserts'*, can often be a manual correction. This can be a time burden for someone working in a large urban area or across an entire police force. It can involve making arbitrary cut-off decisions. What do too few offences mean? Less than 10? Less than 1 per week? Less than 1 per month? This can become an iterative loop, which can be fine for a single-time study or intervention, but you do not want to rehash this manual process over and over again. 
 
-Something I have experimented with is applying transformations to the raw CCHI/CSS values. The aim is to be able to generate hotspot information that amplifies higher weighted events without generating the frequency deserts. The table below provides an overview of weights that can be applied for a basket of violent crimes, beginning from the raw CCHI value. For example, a homicide is weighted as 5,475 using the CCHI. A log transformation of this value produces a weight of 9 and a square root transformation of this value produces a weight of 74. The count treats all crimes equally.
+Something I have experimented with is applying transformations to the raw CCHI/CSS values. The aim is to be able to generate hotspot information that amplifies higher weighted events without generating the frequency deserts. The table below provides an overview of weights that can be applied to a basket of violent crimes, beginning from the raw CCHI value. For example, a homicide is weighted as 5,475 using the CCHI. A log transformation of this value produces a weight of 9 and a square root transformation of this value produces a weight of 74. The count treats all crimes equally.
 
 <br>
 
@@ -77,11 +77,11 @@ We now transform the CHI weights by taking the square root (SQRT). We can see si
 
 #### 4. CHI weighted (sqrt transform) vs. CHI weighted (raw values)
 
-From an exploratory perspective, the square root transform assists in reducing the skew caused by frequency deserts whilst still able to emphasise harm. 
+From an exploratory perspective, the square root transform assists in reducing the skew caused by frequency deserts whilst still being able to emphasise harm. 
 
-In Grand Rapids, the CCHI square root transform captured 5% more crime counts among the top 10% of its hotspot surface, comparative to the top 10% of the surface produced by CCHI values left untransformed. This is the equivalent of up to **300x more crimes**. 
+In Grand Rapids, the CCHI square root transform captured 5% more crime counts among the top 10% of its hotspot surface, compared to the top 10% of the surface produced by CCHI values left untransformed. This is the equivalent of up to **300 more crimes**. 
 
-In terms of harm, there was **732 harm days lost** among the top 10% of the CCHI square root transform surface, comparative to the top 10% of the CCHI untransformed. This is the equivalent of losing 2x robberies, or 1x firearms incident from the selection of hotspot areas. 
+In terms of harm, there were **732 harm days lost** among the top 10% of the CCHI square root transform surface, compared to the top 10% of the CCHI untransformed. This is the equivalent of losing 2x robberies, or 1x firearms incident from the selection of hotspot areas. 
 
 More robust testing is no doubt required, but the transformation of harm weights may be a helpful method when applied to spatial point pattern analyses.
 
