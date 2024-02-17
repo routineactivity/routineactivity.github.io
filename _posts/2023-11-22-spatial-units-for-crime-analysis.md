@@ -3,8 +3,6 @@ title:  "Spatial units for crime analysis"
 layout: post
 ---
 
-## Spatial units for crime analysis
-
 _If you’re working in law enforcement or with crime data, it’s quite likely that you will have been asked to produce data aggregated to a large spatial unit — like a neighbourhood, census block or ward, or even areas as large as cities and towns — for the purpose of prioritising geographical locations for additional resource_
 
 _But is that an efficient way to target geographically?_
