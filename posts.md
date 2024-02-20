@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>Posts</h2>
-<ul>
+<ul style="padding: 0 20px;">
 {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
