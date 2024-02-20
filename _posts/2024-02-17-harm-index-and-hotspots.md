@@ -90,3 +90,9 @@ More robust testing is no doubt required, but the transformation of harm weights
 ### Further reading
 
 * <a href="https://discovery.ucl.ac.uk/10076721/8/Ashby_Comparing%20Methods%20for%20Measuring%20Crime%20Harm%20Severity_AAM.pdf" target="_blank">Ashby, M. (2018) Comparing methods for measuring crime harm/severity</a>
+* <a href="https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-022-00176-x" target="_blank">Harinam et al (2022) Spatial distribution and development trajectories of crime versus crime severity: do no abandon the count-based model just yet</a>
+* <a href="https://www.gov.uk/government/publications/hot-spot-policing-in-england-and-wales-year-ending-march-2022/evaluation-report-on-grip-and-bespoke-funded-hot-spot-policing#:~:text=Key%20findings,over%2080%2C000%20weapons%20were%20collected." target="_blank">Home Office (2023) Evaluation report on Grip and bespoke-funded hot spot policing</a>
+* <a href="https://link.springer.com/article/10.1007/s41887-020-00043-2" target="_blank">Sherman (2020) How to count crime: the Cambridge Harm Index consensus</a>
+* <a href="https://static1.squarespace.com/static/5d809efd96f5c906aaf61f3d/t/601bf1485cd3ca249e99a12c/1612443985497/Hotspots+vs.+harmspots+Shifting+the+focus+from+counts+to+harm+in+the+criminology+of+place.pdf" target="_blank">Weinborn et al (2017) Hotspots vs. harm spots: Shifting the focus from counts to harm in the criminology of place</a>
+
+
