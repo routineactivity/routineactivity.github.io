@@ -5,7 +5,7 @@ title: "About Me"
 
 ### Biography
 
-I am currently a Data Scientist specialising in geographical information. My main interests are crime analysis, problem-solving and evidence-based policing. 
+I am currently a Data Scientist specialising in geographical information. My main interests are crime analysis, problem-solving analysis (for problem-oriented policing) and evidence-based policing, particularly for the application of place strategies.
 
 Operating for almost 20 years in the roles of community safety crime analyst, intelligence analyst, strategic analyst and data scientist, I have extensive experience in collating data and presenting compelling cases for innovation in frontline policing. I am an expert problem-solving practitioner who has developed analytical products to inform operational policing and decision-making. I have been awarded for analysis and problem solving having won the Tilley Award for Excellence in Problem-Oriented Policing (2012) and twice the Herman Goldstein Award for Excellence in Problem-Oriented Policing (2013, 2015).
 
