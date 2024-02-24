@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h2 style="padding: 40px;">Posts</h2>
-<ul style="padding: 0 20px;">
+<h2 style="padding: 25px;">Posts</h2>
+<ul style="padding: 0 30px;">
 {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
