@@ -1,6 +1,9 @@
 ---
 title:  "Reconciling harm weighting and count-based analysis"
 layout: post
+date: 2024-02-17
+last_updated: 2024-02-17
+tags: [crime mapping, hotspots, crime harm]
 ---
 
 This week the Home Office published its  <a href="https://www.gov.uk/government/publications/hot-spot-policing-in-england-and-wales-year-ending-march-2022/evaluation-report-on-grip-and-bespoke-funded-hot-spot-policing#:~:text=Key%20findings,over%2080%2C000%20weapons%20were%20collected." target="_blank">Evaluation report on Grip and bespoke-funded hot spot policing</a>, which was the largest national effort in observing and evaluating visible patrol as a strategy to reduce crime in hotspots - in this case high violence locations in England and Wales. 
