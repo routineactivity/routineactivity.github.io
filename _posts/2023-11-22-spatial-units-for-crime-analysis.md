@@ -1,8 +1,8 @@
 ---
 title:  "Spatial units for crime analysis"
 layout: post
-date: 2024-02-24
-last_updated: 2023-11-22
+date: 2023-11-22
+last_updated: 2024-02-24
 tags: [crime-mapping, hotspots]
 ---
 
