@@ -15,6 +15,8 @@ The content on this site, including all blog posts, articles, and opinions, repr
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    <!-- Add the first 50 words of the post content here -->
+    <p>{{ post.content | strip_html | truncatewords: 50, "..." }}</p>
   </li>
 {% endfor %}
 </ul>
@@ -25,6 +27,8 @@ The content on this site, including all blog posts, articles, and opinions, repr
   <li>
     <a href="{{ map.url }}">{{ map.title }}</a>
     <p>{{ map.date | date: "%B %d, %Y" }}</p>
+     <!-- Add the first 50 words of the post content here -->
+    <p>{{ post.content | strip_html | truncatewords: 50, "..." }}</p>
   </li>
 {% endfor %}
 </ul>
