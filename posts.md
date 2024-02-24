@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>Posts</h2>
+<h2 style="padding: 20px;">Posts</h2>
 <ul style="padding: 0 40px;">
 {% for post in site.posts %}
   <li>
