@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-<img src="/assets/ra_logoidea.jpg" alt="Logo" style="width: 100px; height: auto;">
+<img src="/assets/ra_logoidea.jpg" alt="Logo" style="width: 200px; height: auto;">
 
 I'm currently employed in a law enforcement data science team where I specialise in geographical information. I am interested in crime analysis, particularly the geographical distribution of crimes, their concentration and how that relates to the physical and built environment. More generally, I am interested in using a range of data sources to understand and seek to improve public safety problems and evaluate the effectiveness of interventions. 
 
