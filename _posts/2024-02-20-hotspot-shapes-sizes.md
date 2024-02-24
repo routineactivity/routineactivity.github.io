@@ -3,6 +3,7 @@ title:  "Hot spot shapes and sizes"
 layout: post
 date: 2024-02-20
 last_updated: 2024-02-24
+tags: [crime mapping, hotspots, visible policing]
 ---
 
 The recent Home Office <a href="https://www.gov.uk/government/publications/hot-spot-policing-in-england-and-wales-year-ending-march-2022/evaluation-report-on-grip-and-bespoke-funded-hot-spot-policing#:~:text=Key%20findings,over%2080%2C000%20weapons%20were%20collected." target="_blank">Evaluation report on Grip and bespoke-funded hot spot policing</a> highlighted differences and challenges encountered by analysts in identifying the best hot spot shapes and sizes for their visible policing strategies. Ideally, we want places small enough and hot enough for police officer presence to generate an effect. This short article offers some thoughts when assessing the suitability of the shapes and sizes of hot spots for visible patrol.
