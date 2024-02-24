@@ -1,6 +1,9 @@
 ---
 title:  "Spatial units for crime analysis"
 layout: post
+date: 2024-02-24
+last_updated: 2023-11-22
+tags: [crime-mapping, hotspots]
 ---
 
 _If you’re working in law enforcement or with crime data, it’s quite likely that you will have been asked to produce data aggregated to a large spatial unit — like a neighbourhood, census block or ward, or even areas as large as cities and towns — for the purpose of prioritising geographical locations for additional resource_
