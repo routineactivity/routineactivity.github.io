@@ -5,13 +5,13 @@ title: "About Me"
 
 ### Biography
 
-I am currently a Data Scientist specialising in geographical information. My main interests are crime analysis, problem-solving analysis (for problem-oriented policing) and evidence-based policing, particularly for the application of place strategies.
+I am currently a Data Scientist specialising in geographical information. My main interests are crime analysis, problem-solving analysis (and problem-oriented policing) and evidence-based policing, particularly for applying place strategies.
 
-Operating for almost 20 years in the roles of community safety crime analyst, intelligence analyst, strategic analyst and data scientist, I have extensive experience in collating data and presenting compelling cases for innovation in frontline policing. I am an expert problem-solving practitioner who has developed analytical products to inform operational policing and decision-making. I have been awarded for analysis and problem solving having won the Tilley Award for Excellence in Problem-Oriented Policing (2012) and twice the Herman Goldstein Award for Excellence in Problem-Oriented Policing (2013, 2015).
+Operating for almost 20 years as a community safety crime analyst, intelligence analyst, strategic analyst and data scientist, I have extensive experience collating data and presenting compelling cases for innovation in frontline policing. I am an expert problem-solving practitioner who has developed analytical products to inform operational policing and decision-making. I have been awarded for analysis and problem solving having won the Tilley Award for Excellence in Problem-Oriented Policing (2012) and twice the Herman Goldstein Award for Excellence in Problem-Oriented Policing (2013, 2015).
 
-My work has included the use of problem-solving analysis to inform situational crime prevention techniques (including burglary, <a href= "https://www.taylorfrancis.com/chapters/edit/10.4324/9780429457357-5/gang-violence-enfield-london-lisa-tompson-kate-bowers" target="_blank">gang violence and street robbery</a>), machine learning <a href="https://www.sebp.police.uk/2020-virtual-conference" target="_blank">statistical forecasts</a> to identify prospective perpetrators of weapon-enabled harm, and <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2023.2209163" target="_blank">risk-terrain modelling</a> to understand geographical contributors to patterns of serious violence and public space sexual offences. 
+My work has leveraged data and analysis to inform situational crime prevention techniques (including burglary, <a href= "https://www.taylorfrancis.com/chapters/edit/10.4324/9780429457357-5/gang-violence-enfield-london-lisa-tompson-kate-bowers" target="_blank">gang violence and street robbery</a>), machine learning <a href="https://www.sebp.police.uk/2020-virtual-conference" target="_blank">statistical forecasts</a> to identify prospective perpetrators of weapon-enabled harm, and <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2023.2209163" target="_blank">risk-terrain modelling</a> to understand geographical contributors to patterns of serious violence and public space sexual offences. 
 
-I maintain an open-source <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">website</a> which provides a range of crime analysis tools and resources for use in crime prevention. This is to support those in public safety or policing roles who are interested in developing technical skills and learning methods that can be applied for the purpose of improving public safety.
+I maintain an open-source <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">website</a> which provides a range of crime analysis tools and resources for use in crime prevention efforts. This is to support those in public safety or policing data roles interested in developing technical skills and learning methods that can be applied to improving public safety.
 
 ### Education and Professional Qualifications
 
@@ -31,7 +31,7 @@ I maintain an open-source <a href="https://sites.google.com/view/routineactivity
 * **2011 Runner-up** Herman Goldstein Problem-Oriented Policing Excellence Awards: ‘Gangs Action Group’, LB Enfield and Metropolitan Police
 
 ### Peer-reviewed works
-
+ 
 * Sidebottom, A., Agar, I., Brennan, I., Chainey, S. (2024). *Problem Solving Violent Crime: A Guide for Analysts*. College of Policing.
 * Agar, I et al (2023). *The Essex Risk-Based Policing Initiative: Evidence-Based Practices in Problem Analysis and Crime Prevention in the UK*. Justice Quarterly. <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2023.2209163" target="_blank">article</a>
 * Sidebottom, A., Agar, I. & Kurland, J. (2023). *Do increases in the price of fuel increase levels of fuel theft? Evidence from England and Wales*. Crime Science 12, 7. <a href="https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-023-00182-7#citeas" target="_blank">article</a>
@@ -49,10 +49,10 @@ I maintain an open-source <a href="https://sites.google.com/view/routineactivity
 
 ### Skills
 
-* R, Python, SQL (MSSQL, PostgreSQL)
+* Python, SQL (MSSQL, PostgreSQL), R
 * Microsoft O365, Azure and PowerBI products
-* GIS database and desktop software
-* Data Science and Geospatial Data Science Methods
+* GIS database and desktop software (including QGIS, ArcPro, MapInfo)
+* Data Science and Geospatial Data Science Methods 
 * Crime and intelligence analysis
 
 
