@@ -100,6 +100,6 @@ More robust testing is no doubt required, but the transformation of harm weights
 
 <br>
 
-I originally posted this on [medium](https://medium.com/@routineactivity85/reconciling-harm-weighting-and-count-based-analysis-e0e57a50989c).
+I originally posted this on <a href="https://medium.com/@routineactivity85/reconciling-harm-weighting-and-count-based-analysis-e0e57a50989c" target="_blank">Medium</a>
 
 
