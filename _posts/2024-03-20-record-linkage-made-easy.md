@@ -44,4 +44,4 @@ I’ve made available a short worked example using Splink’s <a href="https://m
 
 <br>
 
-I originally posted this on [medium](https://medium.com/@routineactivity85/record-linkage-and-de-duplication-c1baa0607031).
+I originally posted this on <a href="https://medium.com/@routineactivity85/record-linkage-and-de-duplication-c1baa0607031" target="_blank">Medium</a>
