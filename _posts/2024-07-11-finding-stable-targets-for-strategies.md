@@ -103,9 +103,11 @@ lengths = [len(row) for row in data_for_hmm]
 data_for_hmm = np.concatenate(data_for_hmm).reshape(-1, 1)
 ```
 
+<br>
    
 ### Code Block 2: running the GBTA
 
+<br>
 
 ```
 # fit HMM return BIC for given number of groups
@@ -130,9 +132,11 @@ group_assignments = np.split(best_model.predict(data_for_hmm), np.cumsum(lengths
 group_probabilities = np.split(best_model.predict_proba(data_for_hmm), np.cumsum(lengths)[:-1])
 ```
 
+<br>
 
 ### Code Block 3: reshaping and merging results to original data for plotting and mapping
 
+<br>
 
 ```
 # results with IDs for interpretable table view
@@ -162,6 +166,7 @@ df_with_results = pd.merge(df, results_df, on='ID')
 df_with_results
 ```
 
+<br>
 
 ### Further reading
 
@@ -174,3 +179,4 @@ df_with_results
 <br>
 
 I originally posted this on [medium](https://medium.com/@routineactivity85/finding-stable-targets-for-strategies-0f335e3e59ff).
+
