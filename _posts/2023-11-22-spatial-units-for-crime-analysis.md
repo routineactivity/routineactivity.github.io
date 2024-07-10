@@ -47,9 +47,9 @@ Herrmannâ€™s (2020), top reasons advocating for [small units] (*slide deck is â€
 3. Many of the hottest crime streets are not located in city-wide hotspots OR city-wide high crime wards
 4. Frontline resources understand street names much more than ward boundaries and graduated hotspot surfaces
 
-Originally posted on [medium](https://medium.com/@routineactivity85/spatial-units-for-crime-analysis-872439e142d3).
+Originally posted on <a href="https://medium.com/@routineactivity85/spatial-units-for-crime-analysis-872439e142d3" target="_blank">Medium</a>.
 
 ### Further reading
 
-* [Criminology of Place: Street Segments](https://www.researchgate.net/publication/285924220_The_Criminology_of_Place_Street_Segments_and_Our_Understanding_of_the_Crime_Problem)
-* [Testing the law of crime concentration at place in a suburban setting](https://cebcp.org/wp-content/halloffame/Gill-etal-Testing-Concentration-Crime.pdf)
+* <a href="https://www.researchgate.net/publication/285924220_The_Criminology_of_Place_Street_Segments_and_Our_Understanding_of_the_Crime_Problem" target="_blank">Criminology of Place: Street Segments</a>
+* <a href="https://cebcp.org/wp-content/halloffame/Gill-etal-Testing-Concentration-Crime.pdf" target="_blank">Testing the law of crime concentration at place in a suburban setting</a>
