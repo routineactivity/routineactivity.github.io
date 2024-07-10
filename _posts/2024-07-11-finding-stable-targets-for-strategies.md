@@ -83,7 +83,8 @@ Below I provide the basic code used in this example to generate GBTA. You can al
 
 ### Code Block 1: modules used and data import/reshape
 
-```# what's needed
+```
+# what's needed
 import pandas as pd
 import numpy as np
 from hmmlearn import hmm
@@ -106,7 +107,8 @@ data_for_hmm = np.concatenate(data_for_hmm).reshape(-1, 1)
 ### Code Block 2: running the GBTA
 
 
-```# fit HMM return BIC for given number of groups
+```
+# fit HMM return BIC for given number of groups
 def fit_hmm(n_groups):
     model = hmm.PoissonHMM(n_groups=n_groups, n_iter=100, random_state=42)
     model.fit(data_for_hmm, lengths=lengths)
@@ -132,7 +134,8 @@ group_probabilities = np.split(best_model.predict_proba(data_for_hmm), np.cumsum
 ### Code Block 3: reshaping and merging results to original data for plotting and mapping
 
 
-```# results with IDs for interpretable table view
+```
+# results with IDs for interpretable table view
 results = pd.DataFrame({
     'ID': df['ID'],
     'Group': [assignment[0] for assignment in group_assignments],
