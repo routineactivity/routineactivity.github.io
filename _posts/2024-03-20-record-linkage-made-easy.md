@@ -1,8 +1,8 @@
 ---
 title:  "Spatial units for crime analysis"
 layout: post
-date: 2024-20-03
-last_updated: 2024-10-07
+date: 2024-03-20
+last_updated: 2024-07-10
 tags: [crime-data]
 ---
 _Merging multiple datasets and gaining a view of unique persons in administrative data is a regular obstacle for data professionals. But with <a href="https://moj-analytical-services.github.io/splink/index.html" target="_blank">Splink</a> that process can be fast, accurate and scaleable._
