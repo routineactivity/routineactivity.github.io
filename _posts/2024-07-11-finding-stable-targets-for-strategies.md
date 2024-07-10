@@ -178,5 +178,5 @@ df_with_results
 
 <br>
 
-I originally posted this on [medium](https://medium.com/@routineactivity85/finding-stable-targets-for-strategies-0f335e3e59ff).
 
+I originally posted this on <a href="https://medium.com/@routineactivity85/finding-stable-targets-for-strategies-0f335e3e59ff" target="_blank">Medium</a>
