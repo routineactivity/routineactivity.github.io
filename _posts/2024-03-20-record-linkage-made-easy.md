@@ -1,5 +1,5 @@
 ---
-title:  "Spatial units for crime analysis"
+title:  "Record linkage made easy"
 layout: post
 date: 2024-03-20
 last_updated: 2024-07-10
