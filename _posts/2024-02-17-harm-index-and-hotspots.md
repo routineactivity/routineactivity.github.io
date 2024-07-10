@@ -98,4 +98,8 @@ More robust testing is no doubt required, but the transformation of harm weights
 * <a href="https://link.springer.com/article/10.1007/s41887-020-00043-2" target="_blank">Sherman (2020) How to count crime: the Cambridge Harm Index consensus</a>
 * <a href="https://static1.squarespace.com/static/5d809efd96f5c906aaf61f3d/t/601bf1485cd3ca249e99a12c/1612443985497/Hotspots+vs.+harmspots+Shifting+the+focus+from+counts+to+harm+in+the+criminology+of+place.pdf" target="_blank">Weinborn et al (2017) Hotspots vs. harm spots: Shifting the focus from counts to harm in the criminology of place</a>
 
+<br>
+
+I originally posted this on [medium](https://medium.com/@routineactivity85/reconciling-harm-weighting-and-count-based-analysis-e0e57a50989c).
+
 
