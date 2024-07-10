@@ -8,7 +8,7 @@ tags: [crime mapping, hotspots, visible policing]
 
 The recent Home Office <a href="https://www.gov.uk/government/publications/hot-spot-policing-in-england-and-wales-year-ending-march-2022/evaluation-report-on-grip-and-bespoke-funded-hot-spot-policing#:~:text=Key%20findings,over%2080%2C000%20weapons%20were%20collected." target="_blank">Evaluation report on Grip and bespoke-funded hot spot policing</a> highlighted differences and challenges encountered by analysts in identifying the best hot spot shapes and sizes for their visible policing strategies. Ideally, we want places small enough and hot enough for police officer presence to generate an effect. This short article offers some thoughts when assessing the suitability of the shapes and sizes of hot spots for visible patrol.
 
-This is a follow-up to a previous blog article which considered [crime counts versus crime harm](https://routineactivity.github.io/harm-index-and-hotspots/).
+This is a follow-up to a previous blog article which considered <a href="https://routineactivity.github.io/harm-index-and-hotspots/" target="_blank">crime counts versus crime harm</a>
 
 ### Hot spot shapes
 
@@ -99,5 +99,5 @@ Finally - these thoughts are specific to identifying hot spots for patrol. I do 
 * <a href="https://www.crimrxiv.com/pub/wmelrli9/release/1" target="_blank">Wheeler & Reuter (2020) Redrawing Hot Spots of Crime in Dallas, Texas</a>
 
 <br>
+I originally posted this on <a href="https://medium.com/@routineactivity85/hot-spot-shapes-and-sizes-70d2b702a2b6" target="_blank">Medium</a>
 
-I originally posted this on [medium](https://medium.com/@routineactivity85/hot-spot-shapes-and-sizes-70d2b702a2b6).
