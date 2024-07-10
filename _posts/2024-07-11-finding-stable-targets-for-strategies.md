@@ -16,7 +16,7 @@ GBTA is the use of longitudinal data to identify distinct trajectory groups.
 
 In criminal justice, this usually means a person's developmental pattern (criminal career) over age and time. However, it can also be applied to geography. I first came across GBTA in <a href="https://www.amazon.co.uk/Criminology-Place-Segments-Understanding-Problem/dp/0199928630" target="_blank">‘Criminology of Place’</a> which observed trends in crime for each of Seattle’s street segments over 16 years.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-01.png" alt="Logo" style="width: 800px; height: auto;">
 
 ### What might we use it for?
 
@@ -26,7 +26,7 @@ In geographical places, our aim could be understanding which few places drive in
 
 The example below uses open data from Miami Jail Bookings on person offending leading to arrest. Here we can see four distinct trajectories in offending across all people in the dataset born in 1988. For illustrative purposes, we might label Group 1 as “desisters” — they offended frequently in their late teens, but then tailed off rapidly thereafter remaining low.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-02.png" alt="Logo" style="width: 800px; height: auto;">
 
 ### Doing GBTA. What's involved?
 
@@ -45,13 +45,13 @@ _For a more detailed explanation, I recommend watching David Nagin’s <a href="
 
 With data from police.uk I aggregated London robberies 2011–2023 into 450m square grids then generated a GBTA using these as my spatial units of analysis. Nine distinct trajectories were generated. You can see these in the visual below (a small group of cells in the West End of London are excluded as this group had significantly higher mean counts).
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-03.png" alt="Logo" style="width: 800px; height: auto;">
 
 Each trajectory in the chart shows the average number of crimes for 450m square grids belonging to a group. For example, spatial units in Group 4 as of 2023 had a mean robbery count of almost 70 and this is the highest mean for the group since 2011. The areas in Group 4 saw a falling trend post the 2011 riots, with subsequent increases and falls during Covid occurring in 2020–21.
 
 These groups can be viewed geographically in the map below. An interactive version of this map <a href="https://sites.google.com/view/routineactivity/blog-and-site-articles/london-robbery-gbta" target="_blank">can be viewed here</a>.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-04.png" alt="Logo" style="width: 800px; height: auto;">
 
 At one end of the scale are Group 1 and Group 4.
 
@@ -59,15 +59,15 @@ Group 1 which is just three 450m grid squares within London’s West End had the
 
 Group 4, with 52 450m grid squares, saw a mean robbery count of nearly 70 in 2023. There were over 32,000 robberies in these locations since 2011 accounting for 8% of the total.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-05.png" alt="Logo" style="width: 800px; height: auto;">
 
 Group 1 and 4 locations are shown below.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-06.png" alt="Logo" style="width: 800px; height: auto;">
 
 At the opposite end of the scale are Group 3 and Group 6. Locations in Group 3 frequently have less than 1 robbery offence per year, and Group 6 has less than 2 robberies per year. These groups make up 53% of London’s geographical area and contain 10% of robberies since 2011.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-07.png" alt="Logo" style="width: 800px; height: auto;">
 
 Whilst Group 1 and Group 4 are perhaps obvious candidates for targeted robbery reduction efforts, even making significant improvements in those areas is unlikely to drastically move the dial in robbery volumes at the city-wide level.
 
@@ -77,7 +77,7 @@ Geographically Group 0 areas often clump together to create possible contiguous 
 
 GBTA does not have to limit itself to uniform polygons. For example, it could be applied to street segment data (as done in the Weisburd et al study of Seattle) to produce more precise target area boundaries that capture the extent of crime patterns.
 
-IMAGE HERE
+<img src="/assets/images/2024-07-11-08.png" alt="Logo" style="width: 800px; height: auto;">
 
 Below I provide the basic code used in this example to generate GBTA. You can also find materials used from <a href="https://github.com/routineactivity/gbtm_examples/tree/main/london_robbery" target="_blank">GitHub at this link</a>. More advanced GBTA examples and other software (R, Stata) examples are provided at the end of this article.
 
