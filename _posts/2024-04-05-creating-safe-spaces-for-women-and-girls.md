@@ -18,7 +18,7 @@ A variety of violence and aggression problems are experienced by women and girls
 
 The visual below, adapted from Felson and Eckert (2018), illustrates the continuum of violence and aggression experienced.
 
-IMAGE HERE
+<img src="/assets/images/2024-04-05-eckert_felson.png" alt="Logo" style="width: 800px; height: auto;">
 
 The focus of this post is the right-hand side. Specifically, sexual violence (rape, sexual assault, exposure, administering poison with intent to commit sexual offence), stalking and street harassment offences perpetrated by males against women and girls. The filters applied to generate data for these problems are broadly to:
 
@@ -44,7 +44,7 @@ There are many contexts in which public spaces can present danger to women and g
 
 Many types of places can create a feeling of unsafety, that you could be attacked by an offender who then gets away.
 
-IMAGE HERE
+<img src="/assets/images/2024-04-05-risky_places.png" alt="Logo" style="width: 800px; height: auto;">
 
 Let’s consider the offender modus operandi (MO) in the context of places. A male intent on committing the offence of sexual violence will consider ways in which they can use their surroundings to complete their crime. That may involve searching for their target in an isolated area, or near the edge of an isolated area where they can then push or pull them into it (a park, an alleyway, a car park, a vacant building). The offender may need to wait for a lull in activity if they attack in a less hidden area — this may be more likely for daytime offences.
 
@@ -97,7 +97,7 @@ _4. A lasso regression predicts the crime outcome using the variables, then for 
 
 The examples I provide below are from a presentation I delivered at an event in early 2022 related to the <a href="https://www.college.police.uk/article/safer-streets-fund-toolkit-updated" target="_blank">Home Office Safer Street Fund</a> for schemes to reduce violence against women and girls. This was based on exploratory work of the Southend-on-Sea built-up urban area within Essex UK. Models and risk terrains were run for street harassment, sexual violence, street harassment and sexual violence during darkness, and street harassment and sexual violence during daylight.
 
-IMAGE HERE
+<img src="/assets/images/2024-04-05-.png" alt="Logo" style="width: 800px; height: auto;">
 
 RTM outputs are different to what we usually see from prediction/forecasting techniques in that they assign a risk score to a place based on what makes it vulnerable (the diagnosis of place features), regardless of whether there have been any crime events (usually attempts are made to predict how much crime will happen in a spatial unit over a given period).
 
@@ -107,7 +107,7 @@ Some of these locations may have regular exposure to crime, others less exposure
 
 If we look at the hotspot surface side-by-side with the risk terrain for Southend below, we can see better what is happening.
 
-IMAGE HERE
+<img src="/assets/images/2024-04-05-risk terrain_hotspots.png" alt="Logo" style="width: 800px; height: auto;">
 
 In our outputs for Southend, we found that features including bus routes, subway underpasses, small play parks and small car parks were places where risk increased during daylight hours. During the hours of darkness, this shifted towards nightclubs, pubs, bars and features more related to the nighttime economy.
 
@@ -184,7 +184,7 @@ Finally, below is an example of a problem-solving response framework for sexual 
 
 This framework can help you to align analytical insights with response literature and to think about who is best placed to respond, how and when.
 
-IMAGE HERE
+<img src="/assets/images/2024-04-05-gpsm.jpg" alt="Logo" style="width: 800px; height: auto;">
 
 ### Further reading
 
