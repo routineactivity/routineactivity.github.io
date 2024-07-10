@@ -1,8 +1,8 @@
 ---
 title:  "Finding stable targets for strategies"
 layout: post
-date: 2024-02-20
-last_updated: 2024-02-24
+date: 2024-06-11
+last_updated: 2024-07-10
 tags: [group based trajectory modelling]
 ---
 
