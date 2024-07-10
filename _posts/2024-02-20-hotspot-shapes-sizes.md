@@ -97,3 +97,7 @@ Finally - these thoughts are specific to identifying hot spots for patrol. I do 
 * <a href="https://www.gov.uk/government/publications/hot-spot-policing-in-england-and-wales-year-ending-march-2022/evaluation-report-on-grip-and-bespoke-funded-hot-spot-policing#:~:text=Key%20findings,over%2080%2C000%20weapons%20were%20collected." target="_blank">Home Office (2023) Evaluation report on Grip and bespoke-funded hot spot policing</a>
 * <a href="https://www.researchgate.net/publication/276150162_The_law_of_crime_concentration_and_the_criminology_of_place" target="_blank">Weisburd (2015) The law of crime concentration and the criminology of place</a>
 * <a href="https://www.crimrxiv.com/pub/wmelrli9/release/1" target="_blank">Wheeler & Reuter (2020) Redrawing Hot Spots of Crime in Dallas, Texas</a>
+
+<br>
+
+I originally posted this on [medium](https://medium.com/@routineactivity85/hot-spot-shapes-and-sizes-70d2b702a2b6).
