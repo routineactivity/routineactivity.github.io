@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Line Chart</title>
+    <title>Interactive Line Chart with Multiple Filters</title>
 </head>
 <body>
-    <h1>Interactive Line Chart with Dropdown</h1>
+    <h1>Interactive Line Chart with Multiple Filters</h1>
     <div id="chart-container">
-        <select id="dataset-selector">
-            <option value="force">Force</option>
-            <option value="csp23nm">CSP</option>
-            <option value="off_sub">Offence Subcategory</option>
-            <option value="off_desc">Offence Description</option>
+        <label for="force-selector">Force:</label>
+        <select id="force-selector">
+            <option value="all">All</option>
         </select>
+
+        <label for="csp23nm-selector">CSP23nm:</label>
+        <select id="csp23nm-selector">
+            <option value="all">All</option>
+        </select>
+
+        <label for="off_sub-selector">Offense Subcategory:</label>
+        <select id="off_sub-selector">
+            <option value="all">All</option>
+        </select>
+
+        <label for="off_desc-selector">Offense Description:</label>
+        <select id="off_desc-selector">
+            <option value="all">All</option>
+        </select>
+
         <div id="chart"></div>
     </div>
 
-    <!-- Load Plotly.js -->
+    <!-- Load Plotly.js and PapaParse -->
     <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
     <script src="script.js"></script>
