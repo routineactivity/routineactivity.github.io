@@ -42,10 +42,10 @@ function populateDropdown(selectorId, items) {
 // Function to filter and sum data based on selected filters
 function filterAndSumData(data, filters) {
     const filteredData = data.filter(row => {
-        return (filters.force === 'all' || row.force === filters.force) &&
-               (filters.csp23nm === 'all' || row.csp23nm === filters.csp23nm) &&
-               (filters.off_sub === 'all' || row.off_sub === filters.off_sub) &&
-               (filters.off_desc === 'all' || row.off_desc === filters.off_desc);
+        return (filters.force === row.force) &&
+               (filters.csp23nm === row.csp23nm) &&
+               (filters.off_sub === row.off_sub) &&
+               (filters.off_desc === row.off_desc);
     });
 
     const groupedData = {};
@@ -99,7 +99,7 @@ async function init() {
     document.getElementById('off_sub-selector').addEventListener('change', () => updateChart(data));
     document.getElementById('off_desc-selector').addEventListener('change', () => updateChart(data));
 
-    // Initial plot
+    // Initial plot based on the first available option in each dropdown
     updateChart(data);
 }
 
