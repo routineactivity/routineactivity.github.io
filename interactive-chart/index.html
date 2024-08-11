@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Long term crime trends</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/papaparse/5.3.0/papaparse.min.js"></script>
+    <title>Interactive Line Chart</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         label {
@@ -55,31 +67,45 @@
     </style>
 </head>
 <body>
+    <h1>Interactive Line Chart with Multiple Filters</h1>
 
-    <!-- Dropdown selectors -->
-    <div>
+    <!-- Link back to the main page -->
+    <p><a href="https://routineactivity.github.io/">&#8592; Back to Home</a></p>
+
+    <div id="chart-container">
         <label for="force-selector">Force:</label>
-        <select id="force-selector"></select>
+        <select id="force-selector">
+            <!-- Options will be populated dynamically -->
+        </select>
 
-        <label for="csp23nm-selector">CSP23NM:</label>
-        <select id="csp23nm-selector"></select>
+        <label for="csp23nm-selector">CSP23nm:</label>
+        <select id="csp23nm-selector">
+            <!-- Options will be populated dynamically -->
+        </select>
 
-        <label for="off_sub-selector">Offense Sub-category:</label>
-        <select id="off_sub-selector"></select>
+        <label for="off_sub-selector">Offense Subcategory:</label>
+        <select id="off_sub-selector">
+            <!-- Options will be populated dynamically -->
+        </select>
 
         <label for="off_desc-selector">Offense Description:</label>
-        <select id="off_desc-selector"></select>
+        <select id="off_desc-selector">
+            <!-- Options will be populated dynamically -->
+        </select>
+
+        <!-- Chart Container -->
+        <div id="chart"></div>
+
+        <!-- Table Container -->
+        <div id="table-container"></div>
     </div>
 
-    <!-- Chart Container -->
-    <div id="chart"></div>
+    <!-- Load Plotly.js and PapaParse -->
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
 
-    <!-- Table Container -->
-    <div id="table-container"></div>
-
-    <script>
-        // JavaScript code as provided in the previous step goes here...
-    </script>
-
+    <!-- Link back to the main page -->
+    <p><a href="https://routineactivity.github.io/">&#8592; Back to Home</a></p>
 </body>
 </html>
