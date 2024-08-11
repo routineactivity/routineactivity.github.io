@@ -3,9 +3,15 @@ const csvUrl = 'https://raw.githubusercontent.com/routineactivity/routineactivit
 
 // Function to fetch and parse the CSV data
 async function fetchData() {
-    const response = await fetch(csvUrl);
-    const csvData = await response.text();
-    return Papa.parse(csvData, { header: true }).data;
+    try {
+        const response = await fetch(csvUrl);
+        const csvData = await response.text();
+        const parsedData = Papa.parse(csvData, { header: true }).data;
+        console.log("Fetched and parsed data:", parsedData); // Debugging
+        return parsedData;
+    } catch (error) {
+        console.error("Error fetching the data:", error);
+    }
 }
 
 // Function to populate dropdowns with unique values from the data
@@ -16,11 +22,16 @@ function populateDropdowns(data) {
     const offDescSet = new Set();
 
     data.forEach(row => {
-        forceSet.add(row.force);
-        csp23nmSet.add(row.csp23nm);
-        offSubSet.add(row.off_sub);
-        offDescSet.add(row.off_desc);
+        if (row.force) forceSet.add(row.force);
+        if (row.csp23nm) csp23nmSet.add(row.csp23nm);
+        if (row.off_sub) offSubSet.add(row.off_sub);
+        if (row.off_desc) offDescSet.add(row.off_desc);
     });
+
+    console.log("Force values:", forceSet); // Debugging
+    console.log("CSP23nm values:", csp23nmSet); // Debugging
+    console.log("Offense Subcategory values:", offSubSet); // Debugging
+    console.log("Offense Description values:", offDescSet); // Debugging
 
     populateDropdown('force-selector', forceSet);
     populateDropdown('csp23nm-selector', csp23nmSet);
@@ -31,12 +42,16 @@ function populateDropdowns(data) {
 // Helper function to populate a dropdown
 function populateDropdown(selectorId, items) {
     const selector = document.getElementById(selectorId);
-    items.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item;
-        option.text = item;
-        selector.appendChild(option);
-    });
+    if (selector) {
+        items.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item;
+            option.text = item;
+            selector.appendChild(option);
+        });
+    } else {
+        console.error("Dropdown selector not found:", selectorId); // Debugging
+    }
 }
 
 // Function to filter and sum data based on selected filters
@@ -91,17 +106,19 @@ function updateChart(data) {
 // Initialize the chart with default data
 async function init() {
     const data = await fetchData();
+    if (data) {
+        populateDropdowns(data);
 
-    populateDropdowns(data);
+        document.getElementById('force-selector').addEventListener('change', () => updateChart(data));
+        document.getElementById('csp23nm-selector').addEventListener('change', () => updateChart(data));
+        document.getElementById('off_sub-selector').addEventListener('change', () => updateChart(data));
+        document.getElementById('off_desc-selector').addEventListener('change', () => updateChart(data));
 
-    document.getElementById('force-selector').addEventListener('change', () => updateChart(data));
-    document.getElementById('csp23nm-selector').addEventListener('change', () => updateChart(data));
-    document.getElementById('off_sub-selector').addEventListener('change', () => updateChart(data));
-    document.getElementById('off_desc-selector').addEventListener('change', () => updateChart(data));
-
-    // Initial plot based on the first available option in each dropdown
-    updateChart(data);
+        // Initial plot based on the first available option in each dropdown
+        updateChart(data);
+    }
 }
 
 // Initialize the chart on page load
 init();
+
