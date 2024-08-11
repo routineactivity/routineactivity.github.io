@@ -136,7 +136,40 @@ function plotData(groupedData) {
     Plotly.newPlot('chart', plotData, { title: 'Total Recorded Crime by Financial Year' });
 }
 
-// Function to handle filter changes and update the chart
+// Function to display the table
+function displayTable(groupedData) {
+    const tableContainer = document.getElementById('table-container');
+    tableContainer.innerHTML = ''; // Clear any existing table
+
+    const table = document.createElement('table');
+    table.className = 'data-table';
+
+    // Create table header
+    const headerRow = document.createElement('tr');
+    const fyHeader = document.createElement('th');
+    fyHeader.textContent = 'Financial Year';
+    const totalHeader = document.createElement('th');
+    totalHeader.textContent = 'Total Recorded Crime';
+    headerRow.appendChild(fyHeader);
+    headerRow.appendChild(totalHeader);
+    table.appendChild(headerRow);
+
+    // Create table rows for each data entry
+    Object.keys(groupedData).sort().forEach(fy => {
+        const row = document.createElement('tr');
+        const fyCell = document.createElement('td');
+        fyCell.textContent = fy;
+        const totalCell = document.createElement('td');
+        totalCell.textContent = groupedData[fy];
+        row.appendChild(fyCell);
+        row.appendChild(totalCell);
+        table.appendChild(row);
+    });
+
+    tableContainer.appendChild(table);
+}
+
+// Function to handle filter changes and update the chart and table
 function updateChart() {
     const filters = {
         force: document.getElementById('force-selector').value,
@@ -148,6 +181,7 @@ function updateChart() {
     fetchData().then(data => {
         const groupedData = filterAndSumData(data, filters);
         plotData(groupedData);
+        displayTable(groupedData); // Update table when chart updates
     });
 }
 
