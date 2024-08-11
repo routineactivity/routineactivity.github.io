@@ -38,13 +38,26 @@ function populateDropdowns(data) {
         }
     });
 
-    console.log("Force options:", forceSet); // Debugging
+    // Convert Sets to Arrays and sort them alphabetically
+    const sortedForce = Array.from(forceSet).sort();
+    const sortedOffSub = Array.from(offSubSet).sort();
+
+    // Sort the nested maps alphabetically as well
+    Object.keys(csp23nmMap).forEach(key => {
+        csp23nmMap[key] = Array.from(csp23nmMap[key]).sort();
+    });
+
+    Object.keys(offDescMap).forEach(key => {
+        offDescMap[key] = Array.from(offDescMap[key]).sort();
+    });
+
+    console.log("Force options:", sortedForce); // Debugging
     console.log("csp23nmMap options:", csp23nmMap); // Debugging
-    console.log("OffSub options:", offSubSet); // Debugging
+    console.log("OffSub options:", sortedOffSub); // Debugging
     console.log("offDescMap options:", offDescMap); // Debugging
 
-    populateDropdown('force-selector', forceSet);
-    populateDropdown('off_sub-selector', offSubSet);
+    populateDropdown('force-selector', sortedForce);
+    populateDropdown('off_sub-selector', sortedOffSub);
 
     // Store the mappings for dependent dropdowns
     window.csp23nmMap = csp23nmMap;
