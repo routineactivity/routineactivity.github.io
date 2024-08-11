@@ -20,7 +20,7 @@ navigation:               # accepts {file, title, url, icon, sidebaricon}
   - {file: "aboutme.md", title: "About Me"}
   - {file: "posts.md", title: "Posts"}
   - {file: "maps.md", title: "Maps"}
-  - {url: "/_interactive_chart/", title: "Trend Charts"}  # Add this line
+  - {url: "/interactive-chart/index.html", title: "Crime Trends"}  # Direct link to HTML page
 
 # Custom collections
 
