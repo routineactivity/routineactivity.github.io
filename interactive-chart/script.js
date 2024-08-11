@@ -133,7 +133,7 @@ function plotData(groupedData) {
 
     console.log("Plot data:", plotData); // Debugging
 
-    Plotly.newPlot('chart', plotData, { title: 'Total Offenses by Fiscal Year' });
+    Plotly.newPlot('chart', plotData, { title: 'Total Recorded Crime by Financial Year' });
 }
 
 // Function to handle filter changes and update the chart
