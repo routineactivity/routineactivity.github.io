@@ -7,6 +7,7 @@ async function fetchData() {
         const response = await fetch(csvUrl);
         const csvData = await response.text();
         const parsedData = Papa.parse(csvData, { header: true }).data;
+        console.log("Fetched and parsed data:", parsedData); // Debugging
         return parsedData;
     } catch (error) {
         console.error("Error fetching the data:", error);
@@ -37,6 +38,11 @@ function populateDropdowns(data) {
         }
     });
 
+    console.log("Force options:", forceSet); // Debugging
+    console.log("csp23nmMap options:", csp23nmMap); // Debugging
+    console.log("OffSub options:", offSubSet); // Debugging
+    console.log("offDescMap options:", offDescMap); // Debugging
+
     populateDropdown('force-selector', forceSet);
     populateDropdown('off_sub-selector', offSubSet);
 
@@ -61,6 +67,8 @@ function populateDropdown(selectorId, items) {
 function handleForceChange() {
     const selectedForce = document.getElementById('force-selector').value;
     const relatedCsp23nm = window.csp23nmMap[selectedForce];
+    console.log("Selected Force:", selectedForce); // Debugging
+    console.log("Related csp23nm options:", relatedCsp23nm); // Debugging
     populateDropdown('csp23nm-selector', relatedCsp23nm);
     updateChart(); // Update chart when dependent dropdown changes
 }
@@ -69,6 +77,8 @@ function handleForceChange() {
 function handleOffSubChange() {
     const selectedOffSub = document.getElementById('off_sub-selector').value;
     const relatedOffDesc = window.offDescMap[selectedOffSub];
+    console.log("Selected OffSub:", selectedOffSub); // Debugging
+    console.log("Related offDesc options:", relatedOffDesc); // Debugging
     populateDropdown('off_desc-selector', relatedOffDesc);
     updateChart(); // Update chart when dependent dropdown changes
 }
@@ -81,6 +91,8 @@ function filterAndSumData(data, filters) {
                (filters.off_sub === row.off_sub) &&
                (filters.off_desc === row.off_desc);
     });
+
+    console.log("Filtered data:", filteredData); // Debugging
 
     const groupedData = {};
 
@@ -105,6 +117,8 @@ function plotData(groupedData) {
         type: 'scatter',
         mode: 'lines+markers'
     }];
+
+    console.log("Plot data:", plotData); // Debugging
 
     Plotly.newPlot('chart', plotData, { title: 'Total Offenses by Fiscal Year' });
 }
@@ -139,3 +153,6 @@ async function init() {
         updateChart();
     }
 }
+
+// Initialize the chart on page load
+init();
