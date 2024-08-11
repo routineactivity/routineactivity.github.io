@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Line Chart</title>
+</head>
+<body>
+    <h1>Interactive Line Chart with Dropdown</h1>
+    <div id="chart-container">
+        <select id="dataset-selector">
+            <option value="force">Force</option>
+            <option value="csp23nm">CSP</option>
+            <option value="off_sub">Offence Subcategory</option>
+            <option value="off_desc">Offence Description</option>
+        </select>
+        <div id="chart"></div>
+    </div>
+
+    <!-- Load Plotly.js -->
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
