@@ -8,63 +8,99 @@ async function fetchData() {
     return Papa.parse(csvData, { header: true }).data;
 }
 
-// Function to group and sum data based on selected column and plot the line chart
-function plotData(data, groupByColumn) {
-    // Group data by 'fy' and the selected column, summing the 'total_off_count'
-    const groupedData = data.reduce((acc, row) => {
-        const key = row.fy + '-' + row[groupByColumn];
-        if (!acc[key]) {
-            acc[key] = {
-                fy: row.fy,
-                group: row[groupByColumn],
-                total: 0
-            };
+// Function to populate dropdowns with unique values from the data
+function populateDropdowns(data) {
+    const forceSet = new Set();
+    const csp23nmSet = new Set();
+    const offSubSet = new Set();
+    const offDescSet = new Set();
+
+    data.forEach(row => {
+        forceSet.add(row.force);
+        csp23nmSet.add(row.csp23nm);
+        offSubSet.add(row.off_sub);
+        offDescSet.add(row.off_desc);
+    });
+
+    populateDropdown('force-selector', forceSet);
+    populateDropdown('csp23nm-selector', csp23nmSet);
+    populateDropdown('off_sub-selector', offSubSet);
+    populateDropdown('off_desc-selector', offDescSet);
+}
+
+// Helper function to populate a dropdown
+function populateDropdown(selectorId, items) {
+    const selector = document.getElementById(selectorId);
+    items.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        option.text = item;
+        selector.appendChild(option);
+    });
+}
+
+// Function to filter and sum data based on selected filters
+function filterAndSumData(data, filters) {
+    const filteredData = data.filter(row => {
+        return (filters.force === 'all' || row.force === filters.force) &&
+               (filters.csp23nm === 'all' || row.csp23nm === filters.csp23nm) &&
+               (filters.off_sub === 'all' || row.off_sub === filters.off_sub) &&
+               (filters.off_desc === 'all' || row.off_desc === filters.off_desc);
+    });
+
+    const groupedData = {};
+
+    filteredData.forEach(row => {
+        if (!groupedData[row.fy]) {
+            groupedData[row.fy] = 0;
         }
-        acc[key].total += parseInt(row.total_off_count, 10);
-        return acc;
-    }, {});
+        groupedData[row.fy] += parseInt(row.total_off_count, 10);
+    });
 
-    // Organize data for Plotly
-    const xValues = [];
-    const yValues = [];
+    return groupedData;
+}
 
-    for (const key in groupedData) {
-        const { fy, total } = groupedData[key];
-        xValues.push(fy);
-        yValues.push(total);
-    }
-
-    // Sort data by 'fy' to ensure the x-axis is ordered
-    const sortedData = xValues.map((_, i) => ({
-        fy: xValues[i],
-        total: yValues[i]
-    })).sort((a, b) => a.fy - b.fy);
-
-    const sortedXValues = sortedData.map(item => item.fy);
-    const sortedYValues = sortedData.map(item => item.total);
+// Function to plot the data
+function plotData(groupedData) {
+    const fyValues = Object.keys(groupedData).sort();
+    const totals = fyValues.map(fy => groupedData[fy]);
 
     const plotData = [{
-        x: sortedXValues,
-        y: sortedYValues,
+        x: fyValues,
+        y: totals,
         type: 'scatter',
         mode: 'lines+markers'
     }];
 
-    Plotly.newPlot('chart', plotData, { title: `Total Offenses by Fiscal Year (${groupByColumn})` });
+    Plotly.newPlot('chart', plotData, { title: 'Total Offenses by Fiscal Year' });
+}
+
+// Function to handle filter changes and update the chart
+function updateChart(data) {
+    const filters = {
+        force: document.getElementById('force-selector').value,
+        csp23nm: document.getElementById('csp23nm-selector').value,
+        off_sub: document.getElementById('off_sub-selector').value,
+        off_desc: document.getElementById('off_desc-selector').value
+    };
+
+    const groupedData = filterAndSumData(data, filters);
+    plotData(groupedData);
 }
 
 // Initialize the chart with default data
 async function init() {
     const data = await fetchData();
-    const selector = document.getElementById('dataset-selector');
+
+    populateDropdowns(data);
+
+    document.getElementById('force-selector').addEventListener('change', () => updateChart(data));
+    document.getElementById('csp23nm-selector').addEventListener('change', () => updateChart(data));
+    document.getElementById('off_sub-selector').addEventListener('change', () => updateChart(data));
+    document.getElementById('off_desc-selector').addEventListener('change', () => updateChart(data));
 
     // Initial plot
-    plotData(data, selector.value);
-
-    // Add event listener for dropdown change
-    selector.addEventListener('change', function() {
-        plotData(data, this.value);
-    });
+    updateChart(data);
 }
 
 // Initialize the chart on page load
