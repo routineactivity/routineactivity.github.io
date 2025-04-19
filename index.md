@@ -5,9 +5,9 @@ title: ""
 
 <img src="/assets/ra_logoidea.jpg" alt="Logo" style="width: 200px; height: auto;">
 
-I'm currently employed in a law enforcement data science team where I specialise in geographical information. I am interested in crime analysis, particularly the geographical distribution of crimes, their concentration and how that relates to the physical and built environment. More generally, I am interested in using a range of data sources to understand and seek to improve public safety problems and evaluate the effectiveness of interventions. 
+I currently work in a law enforcement data science team, with a focus on **geospatial analysis**. My interests lie in **crime analysis**, particularly understanding the **spatial distribution and concentration of crime**, and how these patterns relate to the physical and built environment. More broadly, I'm passionate about leveraging diverse data sources to better understand public safety challenges, inform problem-solving approaches, and evaluate the impact of interventions.
 
-The content on this site, including all blog posts, articles, and opinions, represents my own views and not those of any employer, company, or organisation I may be affiliated with. 
+Please note that all content on this site — including blog posts, articles, and opinions — reflects **my personal views** and not those of any employer, organisation, or affiliation. 
 
 <h2>Recent Posts</h2>
 <ul>
