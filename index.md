@@ -28,7 +28,7 @@ Please note that all content on this site — including blog posts, articles, an
     <a href="{{ map.url }}">{{ map.title }}</a>
     <p>{{ map.date | date: "%B %d, %Y" }}</p>
      <!-- Add the first 50 words of the post content here -->
-    <p>{{ post.content | strip_html | truncatewords: 50, "..." }}</p>
+    <p>{{ map.content | strip_html | truncatewords: 50, "..." }}</p>
   </li>
 {% endfor %}
 </ul>
