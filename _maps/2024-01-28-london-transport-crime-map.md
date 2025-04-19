@@ -6,11 +6,13 @@ last_updated: 2024-02-24
 tags: [crime-mapping, hotspots]
 ---
 
-Quite often we see misleading takes on crime data in the media - one of those takes is the inspiration for a map layer I created and posted <a href="https://felt.com/map/btp-london-dNirKv9B9ASxmumRUvrkZvxD?loc=51.53461,-0.13169,12.08z&share=1" target="_blank">here on Felt</a>
+We often see misleading headlines about crime in the media — and one recent example inspired a map layer I created and shared <a href="https://felt.com/map/btp-london-dNirKv9B9ASxmumRUvrkZvxD?loc=51.53461,-0.13169,12.08z&share=1" target="_blank">here on Felt</a>
 
-The articles in question were published in numerous national and regional newspapers telling us of shocking rises in recorded crime on London's transport network - specifically the Underground. What had actually happened was that increases were in line with the return of passenger numbers following the pandemic as was <a href="https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/violent-incidents-london-underground-1" target="_blank">explained here by the London Assembly</a>
+Several national and regional newspapers reported a _“shocking”_ 75% rise in recorded crime on London’s transport network, particularly the Underground. But the reality is more nuanced: the increase in crime closely mirrors the post-pandemic return of passengers, as explained by the <a href="https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/violent-incidents-london-underground-1" target="_blank">London Assembly.</a>
 
-For those interested you can read more about denominators in transport crime here: <a href="https://osf.io/preprints/socarxiv/neaxh" target="_blank">Solymosi et al (2017) Alternative denominators in transport crime rates</a>
+In other words, **crime rose because people came back — not because the network became less safe**. It's a classic case of needing the right denominator when interpreting crime rates in context.
+
+If you're interested in this topic, I recommend reading Solymosi et al. (2017) <a href="https://osf.io/preprints/socarxiv/neaxh" target="_blank">_Alternative denominators in transport crime rates_</a>, which explores how we should think about exposure and crime risk in public transport settings.
 
 <br>
 
@@ -25,6 +27,9 @@ The map layer created for Felt allows the user to explore violence and sexual of
 
 <br>
 
+Explore the map:
+The interactive layer I created on <a href="https://felt.com/map/btp-london-dNirKv9B9ASxmumRUvrkZvxD?loc=51.53461,-0.13169,12.08z&share=1" target="_blank">Felt</a> allows users to explore recorded violence and sexual offences across London’s rail and Underground stations.
+**_NB Unfortunately Felt has moved to a pricing plan unaffordable for individual use and this will no longer be viewable without watermark_**
 
 [![Felt Map Preview](/assets/images/felt-map-preview.png)](https://felt.com/map/btp-london-dNirKv9B9ASxmumRUvrkZvxD?loc=51.53461,-0.13169,12.08z&share=1)
 
