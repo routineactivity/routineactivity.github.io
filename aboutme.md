@@ -12,7 +12,7 @@ With nearly 20 years of experience across roles in community safety, intelligenc
 My projects span a range of public safety challenges, including:
 
 * Using data and analysis to support **problem oriented policing** and situational crime prevention (including burglary, <a href= "https://www.taylorfrancis.com/chapters/edit/10.4324/9780429457357-5/gang-violence-enfield-london-lisa-tompson-kate-bowers" target="_blank">gang violence and street robbery</a>)
-* Developing <a href="https://www.sebp.police.uk/2020-virtual-conference" target="_blank">statistical models</a> to forecast individuals at risk of exposure to **weapon-enabled harm**
+* Developing <a href="https://science.police.uk/delivery/case-studies/inside-essex-polices-battle-against-knife-violence/" target="_blank">statistical models</a> to forecast individuals at risk of exposure to **weapon-enabled harm**
 * Applying <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2023.2209163" target="_blank">spatial regression models</a> to understand environmental factors contributing to **serious violence** and **public space sexual offences**
 
 I also maintain an <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">open-source site</a> featuring crime analysis tools and resources designed to support public safety professionals and policing analysts in developing technical skills and applying data-driven methods to real-world problems.
