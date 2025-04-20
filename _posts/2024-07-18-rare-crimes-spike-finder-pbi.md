@@ -55,3 +55,5 @@ CALCULATE(
 7. Display using the ‘Line and Stacked Column Chart’ visual.
 
 <img src="/assets/images/pbi_pmf_chart.png" alt="Logo" style="width: 800px; height: auto;">
+
+I originally posted this on <a href="https://medium.com/@routineactivity85/rare-crimes-spike-finder-powerbi-3dc849ea70c9" target="_blank">Medium</a>
