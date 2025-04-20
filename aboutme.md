@@ -55,7 +55,7 @@ I also maintain an <a href="https://sites.google.com/view/routineactivity/home?a
 ### Skills
 
 * Python, SQL (MSSQL, PostgreSQL), R
-* Microsoft O365, Azure and PowerBI
+* Microsoft O365, Azure, DataBricks and PowerBI
 * GIS database and desktop software (including QGIS, ArcPro, MapInfo)
 * Data Science and Geospatial Data Science Methods 
 * Crime and intelligence analysis
