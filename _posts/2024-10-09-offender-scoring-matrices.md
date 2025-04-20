@@ -79,6 +79,4 @@ Below are some studies that deal with individual forecasts and person prioritisa
  * <a href="https://www.researchgate.net/publication/332954754_Targeting_the_Most_Harmful_Co-Offenders_in_Denmark_a_Social_Network_Analysis_Approach" target="_blank">Targeting the most harmful co-offenders in Denmark</a>
  * <a href="https://hull-repository.worktribe.com/output/955595/weapon-carrying-and-the-reduction-of-violent-harm" target="_blank">Weapon-carrying and the reduction of violent harm</a>
 
-*Let me know if you’d like to explore this topic further, or build tools that support ethical, data-informed decision-making in public safety.*
-
 I originally posted this on <a href="https://medium.com/@routineactivity85/offender-scoring-matrices-9be52c9d8db8" target="_blank">Medium</a>
