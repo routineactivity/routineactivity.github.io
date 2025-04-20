@@ -208,7 +208,7 @@ folium.LayerControl(collapsed=False).add_to(m)
 m
 ```
 
-<img src="/assets/images/qf04.png" alt="Logo" style="width: 800px; height: auto;">
+<img src="/assets/images/qf07.png" alt="Logo" style="width: 800px; height: auto;">
 
 In the final example, we bring together multiple layers in a single output. We add the police neighbourhoods, robbery clusters, points and heatmap. We also add in a MiniMap of the study area and draw tools.
 
@@ -292,7 +292,6 @@ weapons = gpd.read_parquet(BytesIO(requests.get('https://raw.githubusercontent.c
 ```
 
 <img src="/assets/images/qf06.png" alt="Logo" style="width: 800px; height: auto;">
-<img src="/assets/images/qf07.png" alt="Logo" style="width: 800px; height: auto;">
 
 ### Links relating to this post
 
@@ -300,3 +299,5 @@ weapons = gpd.read_parquet(BytesIO(requests.get('https://raw.githubusercontent.c
  * <a href="https://github.com/routineactivity/folium_crime_maps/blob/main/notebooks/_QuickFolium_MiamiHomicide.ipynb" target="_blank">Notebook, Miami PD and Miami Dade PD example</a>
  * <a href="https://github.com/routineactivity/folium_crime_maps/blob/main/quick_folium.py" target="_blank">quick_folium.py</a>
  * <a href="https://github.com/routineactivity/folium_crime_maps/tree/main/sample_data" target="_blank">Sample data for Cleveland Police UK and Miami/Miami Dade</a>
+
+ I originally posted this on <a href="https://medium.com/@routineactivity85/quick-interactive-crime-maps-with-folium-a25e560048b6" target="_blank">Medium</a>
