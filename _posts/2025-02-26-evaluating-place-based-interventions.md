@@ -175,7 +175,7 @@ For each crime type, this process produces a results data frame that includes:
  * **synthetic_control:** Weighted crime counts from the donor pool (the counterfactual)
  * **Cumulative frequency values (cf_actual and cf_control):** These can also be computed to provide additional insight.
 
-<img src="/assets/images/chb_scm_result.png" alt="Logo" style="width: 800px; height: auto;">
+<img src="/assets/images/chb_scm_result.png" alt="Logo" style="width: 400px; height: auto;">
 
 ### Stage 3:
 
@@ -239,7 +239,7 @@ print(model.summary())
 
 The final stage employs a standard DiD specification. First, the results data frame is reshaped to a long format and binary indicators are added for group (1 = CHB site, 0 = control) and period (1 = post-intervention, 0 = pre-intervention).
 
-<img src="/assets/images/chb_df_long.png" alt="Logo" style="width: 800px; height: auto;">
+<img src="/assets/images/chb_df_long.png" alt="Logo" style="width: 400px; height: auto;">
 
 The following code snippet shows the basic DiD approach using `statsmodels`:
 
