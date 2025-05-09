@@ -8,6 +8,9 @@ tags: [data, crime, policing]
 
 # Boston Crime Analysis Mini-Project
 
+<img src="/assets/images/bpd_dash_still.png" alt="Logo" style="width: 550px; height: auto;">
+<img src="/assets/images/bpd_dash_still2.png" alt="Logo" style="width: 550px; height: auto;">
+
 In this mini-project, I used three tools:
 
 - **PostgreSQL with PostGIS** for storing geometry (neighbourhoods, police districts, and census tracts) and data tables (crime incidents, shootings).
@@ -30,6 +33,8 @@ First, I ingested the unaltered CSV exports and shapefiles from Analyze Boston i
 This **clean** view will be the single source of truth for downstream analysis and visualisation in Power BI. The most recent 12 months will be used for a record-level analysis report page in Power BI.
 
 Additionally, I created a **materialised view** that aggregates incidents by crime category, police district, and ISO week. By precomputing weekly counts, this view will support a responsive performance report page in Power BI, eliminating the need to query large raw and row-level tables in real time and ensuring fast, seamless rendering of key trends.
+
+<img src="/assets/images/bpd_dash_pgsqlschema.png" alt="Logo" style="width: 550px; height: auto;">
 
 ---
 
