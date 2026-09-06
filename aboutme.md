@@ -7,7 +7,7 @@ title: "About Me"
 
 I’m a Data Scientist specialising in geographical information, with core interests in crime analysis, problem-solving approaches (including problem-oriented policing), and the use of evidence-based strategies, particularly those that apply to place-based interventions.
 
-With nearly 20 years of experience across roles in community safety, intelligence, strategic analysis, and data science, I’ve built a career around using data to drive innovation in frontline policing. I'm an expert problem-solving practitioner, having developed analytical products to support operational policing and strategic decision-making. My work has been recognised with multiple awards, including the Tilley Award for Excellence in Problem-Oriented Policing (2012) and the Herman Goldstein Award (2013, 2015).
+With 20 years of experience across roles in community safety, intelligence, strategic analysis, and data science, I’ve built a career around using data to drive innovation in frontline policing. I'm an expert problem-solving practitioner, having developed analytical products to support operational policing and strategic decision-making. My work has been recognised with multiple awards, including the Tilley Award for Excellence in Problem-Oriented Policing (2012) and the Herman Goldstein Award (2013, 2015).
 
 My projects span a range of public safety challenges, including:
 
@@ -15,7 +15,7 @@ My projects span a range of public safety challenges, including:
 * Developing <a href="https://science.police.uk/delivery/case-studies/inside-essex-polices-battle-against-knife-violence/" target="_blank">statistical models</a> to forecast individuals at risk of exposure to **weapon-enabled harm**
 * Applying <a href="https://scholarship.libraries.rutgers.edu/esploro/outputs/journalArticle/The-Essex-risk-based-policing-initiative-evidence-based/991031824405204646" target="_blank">spatial regression models</a> to understand environmental factors contributing to **serious violence** and **public space sexual offences**
 
-I also maintain an <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">open-source site</a> featuring crime analysis tools and resources designed to support public safety professionals and policing analysts in developing technical skills and applying data-driven methods to real-world problems.
+I also previously maintained an <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">open-source site</a> featuring crime analysis tools and resources designed to support public safety professionals and policing analysts in developing technical skills and applying data-driven methods to real-world problems.
 
 ### Education and Professional Qualifications
 
@@ -37,6 +37,7 @@ I also maintain an <a href="https://sites.google.com/view/routineactivity/home?a
 
 ### Peer-reviewed works
  
+* Forthcoming: Person predictive algorithms in policing: a practice guide for police leaders and analysts  
 * Sidebottom, A., Agar, I., Brennan, I., Chainey, S. (2024). *Problem Solving Violent Crime: A Guide for Analysts*. College of Policing. <a href="https://discovery.ucl.ac.uk/id/eprint/10198056/" target="_blank">report</a>
 * Agar, I et al (2023). *The Essex Risk-Based Policing Initiative: Evidence-Based Practices in Problem Analysis and Crime Prevention in the UK*. Justice Quarterly. <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2023.2209163" target="_blank">article</a>
 * Sidebottom, A., Agar, I. & Kurland, J. (2023). *Do increases in the price of fuel increase levels of fuel theft? Evidence from England and Wales*. Crime Science 12, 7. <a href="https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-023-00182-7#citeas" target="_blank">article</a>
@@ -47,15 +48,14 @@ I also maintain an <a href="https://sites.google.com/view/routineactivity/home?a
 
 ### Professional Service
 
-* 2023-2024 Judge for the 2023 and 2024 National Problem Solving Awards (Tilley Awards)
+* 2023-to present Judge for the 2023 and 2024 National Problem Solving Awards (Tilley Awards)
 * 2021-2023 Guideline committee for Problem-Oriented Policing <a href="https://www.college.police.uk/article/problem-oriented-policing-pop-guidelines" target="_blank">POP Guidelines</a>
-* 2020 to date Maintain website aimed at current and aspiring crime analysts <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">@routineactivity resource site</a>
+* 2020-2026 to date Maintain website aimed at current and aspiring crime analysts <a href="https://sites.google.com/view/routineactivity/home?authuser=0" target="_blank">@routineactivity resource site</a>
   
-
 ### Skills
 
 * Python, SQL (MSSQL, PostgreSQL), R
-* Microsoft O365, Azure, DataBricks and PowerBI
+* Microsoft O365, Azure, DevOps, DataBricks and PowerBI
 * GIS database and desktop software (including QGIS, ArcPro, MapInfo)
 * Data Science and Geospatial Data Science Methods 
 * Crime and intelligence analysis
