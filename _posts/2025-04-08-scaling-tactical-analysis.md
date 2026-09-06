@@ -1,8 +1,8 @@
 ---
-title:  "Using Open Data to Explore Boston Crime"
+title:  "Automatically scaling tactical analysis, crime bulletin and Compstat style text summaries"
 layout: post
-date: 2025-04-08
-last_updated: 2026-06-09
+date: 2025-08-04
+last_updated: 2026-09-06
 tags: [data, crime, policing]
 ---
 
