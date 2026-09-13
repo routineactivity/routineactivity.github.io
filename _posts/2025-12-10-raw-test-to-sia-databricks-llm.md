@@ -102,7 +102,8 @@ To use one:
 <!-- IMAGE PLACEHOLDER 1
 Upload the Databricks Model Serving screenshot and update the filename below.
 -->
-![Databricks model serving endpoint – replace with uploaded image](images/osint-databricks-model-serving.png)
+<img src="/assets/images/osint-databricks-model-serving.png" alt="Logo" style="width: 800px; height: auto;">
+
 
 A REST API URL will look something like:
 
@@ -354,28 +355,28 @@ A result of this approach can be found [here on GitHub](https://github.com/routi
 <!-- IMAGE PLACEHOLDER 2
 Original caption: Sample output table: key actors and alliances
 -->
-![Sample output table: key actors and alliances – replace with uploaded image](images/osint-key-actors-alliances.png)
+<img src="/assets/images/osint-key-actors-alliances.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Sample output table: key actors and alliances*
 
 <!-- IMAGE PLACEHOLDER 3
 Original caption: Sample output table: territorial dynamics
 -->
-![Sample output table: territorial dynamics – replace with uploaded image](images/osint-territorial-dynamics.png)
+<img src="/assets/images/osint-territorial-dynamics.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Sample output table: territorial dynamics*
 
 <!-- IMAGE PLACEHOLDER 4
 Original caption: Sample output table: Tactics and MOs
 -->
-![Sample output table: tactics and MOs – replace with uploaded image](images/osint-tactics-mos.png)
+<img src="/assets/images/osint-tactics-mos.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Sample output table: Tactics and MOs*
 
 <!-- IMAGE PLACEHOLDER 5
 Original caption: Sample output table: summary of recommendations and bottom line narrative
 -->
-![Sample output table: summary recommendations and bottom line narrative – replace with uploaded image](images/osint-summary-recommendations.png)
+<img src="/assets/images/osint-summary-recommendations.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Sample output table: summary of recommendations and bottom line narrative*
 
