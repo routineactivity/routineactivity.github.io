@@ -18,7 +18,7 @@ Inspired by Andrew Wheeler’s [Data Science for Crime Analysis with Python](htt
 Upload the opening image and update the filename below.
 Original caption: Amazing AI Image! Some maritime crime in the Hudson River, and emphasising that Tuesday and Wednesday is peak!
 -->
-![Opening illustration – replace with uploaded image](images/crime-summary-opening.png)
+<img src="/assets/images/crime-summary-opening.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Amazing AI Image! Some maritime crime in the Hudson River, and emphasising that Tuesday and Wednesday is peak!*
 
@@ -276,7 +276,8 @@ There is potential to create bespoke crime problem-specific narratives, and addi
 Upload the final output screenshot and update the filename below.
 Original caption: Snippet of text summaries automated by NY Boro and Crime Type
 -->
-![Automated text summaries – replace with uploaded screenshot](images/crime-summary-output.png)
+
+<img src="/assets/images/crime-summary-output.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Snippet of text summaries automated by NY Boro and Crime Type*
 
