@@ -21,15 +21,9 @@ navigation:               # accepts {file, title, url, icon, sidebaricon}
   - {file: "posts.md", title: "Posts"}
   - {file: "maps.md", title: "Maps"}
   - {url: "/interactive-chart/index.html", title: "Crime Trends"}  # Direct link to HTML page
-  - {url: "/place-eval-tool/index.html", title: "Place Eval Tool", target: "_blank"}
+  - {url: "/place-eval-tool/index.html", title: "Place Eval Tool", target: "_blank"} # Direct link to HTML page
 
 # Custom collections
-
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:name
-
 collections:
   maps:
     output: true
