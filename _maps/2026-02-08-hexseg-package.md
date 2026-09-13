@@ -96,7 +96,7 @@ hex_stats = HS.add_spatial_stats(
 Upload the crime-harm weighted hexagon output and update the filename below.
 Original caption: Output: crime harm weighted hexagon for Cleveland Police, UK
 -->
-![Crime harm weighted hexagons for Cleveland Police – replace with uploaded image](images/hexseg-cleveland-crime-harm-hexagons.png)
+<img src="/assets/images/hexseg-cleveland-crime-harm-hexagons.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Output: crime harm weighted hexagon for Cleveland Police, UK*
 
@@ -121,7 +121,7 @@ m = HS.create_folium_map(
 Upload the top-20 priority hexagon map and update the filename below.
 Original caption: Plotting top 20 hexagans in police force area
 -->
-![Top 20 priority hexagons in the police force area – replace with uploaded image](images/hexseg-top-20-hexagons.png)
+<img src="/assets/images/hexseg-top-20-hexagons.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Plotting top 20 hexagons in the police force area*
 
@@ -218,7 +218,7 @@ m
 Upload the street-segment comparison image and update the filename below.
 Original caption: Top image shows clustered high crime segments; bottom individual high crime segments
 -->
-![Clustered and individual high-crime street segments – replace with uploaded image](images/hexseg-street-segment-results.png)
+<img src="/assets/images/hexseg-street-segment-results.png" alt="Logo" style="width: 800px; height: auto;">
 
 *Top image shows clustered high-crime segments; bottom image shows individual high-crime segments.*
 
